@@ -1,0 +1,124 @@
+/*
+ Theme Name:   Tracks Child
+ Template:     tracks
+ Author: 	   Compete Themes
+ Version: 	   1.0
+ Author URI:   https://www.competethemes.com
+ Description:  This is a child theme used to customize the Tracks WordPress theme.
+ License: GNU  General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+ 
+@import url("../tracks/style.min.css");
+ 
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+body {
+ background: #f8f8f8;
+}
+.site-header {
+ background: none;
+ border-top: solid 1em #f8f8f8;
+}
+.top-navigation {
+ background: #f8f8f8;
+}
+.menu-secondary-items {
+ background: #f8f8f8;
+}
+.menu-item, .menu-secondary-items a:link, .menu-secondary-items a:visited, .menu-secondary-items:before, .social-media-icons a:link, .social-media-icons a:visited {
+ color: #4d4d4d;
+}
+.menu-primary, .menu-primary-tracks {
+ background: #f8f8f8;
+}
+
+.search-form-container, .site-header .search-form-container button {
+ background: #f8f8f8;
+}
+.site-header .search-form-container i {
+ color: #4d4d4d;
+}
+@media (min-width: 50em) {
+ .site-title img {
+   max-width: 18em;
+   max-height:14em;
+ }
+}
+.site-title img {
+  max-width: 18em;
+ max-height: 14em;
+ width: 100%;
+}
+.site-title {
+ opacity: 1;
+ width: 100%;
+ text-align: center;
+}
+.logo:hover {
+ opacity: 0.8;
+}
+.site-title a {
+ width: 100%;
+}
+.title-info {
+ width: 100%;
+}
+.toggle-navigation {
+ color: #4d4d4d;
+ display: none;
+}
+.toggle-secondary-navigation {
+ color: #4d4d4d;
+}
+.excerpt {
+ background: #f8f8f8;
+  opacity: 1;
+}
+.excerpt-content {
+  text-align: left;
+}
+.more-link {
+ display: block;
+ text-align: center;
+}
+.main {
+  background: none;
+}
+.site-title a, .site-title a:active, .site-title a:focus, .site-title a:hover, .site-title a:link, .site-title a:visited, .site-header .site-description {
+ color: #4D4D4D;
+}
+.site-description {
+ font-weight: bold;
+ text-align: center;
+ width: 100%;
+}
+.menu-primary-items {
+ padding-top: 4.5%;
+}
+.menu-primary-items a:link {
+ color: #4d4d4d;
+}
+@media(min-width: 37.5em) {
+ .menu-secondary-items:before {
+  display: none;
+ }
+}
+.sidebar-footer .search-form-container{
+ background: #1A1A1A;
+}
+.site-footer h3, .site-footer .site-description{
+ display: none;
+}
+.sidebar-footer {
+ margin-top: 0em;
+}
+.entry .featured-image {
+ display: none;
+}
+.sidebar-after-post-content .search-form-container {
+  background: white;
+ text-align: center;
+}
