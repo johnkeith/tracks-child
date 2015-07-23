@@ -15,6 +15,8 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
+@import url("pure-grid.css");
+
 body {
  background: #f8f8f8;
 }
@@ -121,4 +123,15 @@ body {
 .sidebar-after-post-content .search-form-container {
   background: white;
  text-align: center;
+}
+
+/* archive pages */
+.archive-post {
+	display: inline-block;
+	float: left;
+	padding: 4px;
+	width: 250px;
+}
+.archive-featured-image .featured-image {
+	height: 250px;
 }
