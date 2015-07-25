@@ -169,3 +169,12 @@ body {
   font-weight: 700;
   color: #aaa;
 }
+.excerpt-container:first-child {
+	width: 50%;
+}
+.excerpt-container {
+	width: 50%;
+}
+.excerpt.even .excerpt-container {
+	float: none;
+}
