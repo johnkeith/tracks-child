@@ -2,7 +2,7 @@
 
 function number_of_posts_on_archive($query){
   if ($query->is_archive){
-    $query->set('posts_per_page', 15);
+    $query->set('posts_per_page', 30);
 	}
   return $query;
 }

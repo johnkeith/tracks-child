@@ -124,14 +124,48 @@ body {
   background: white;
  text-align: center;
 }
+.archive-header {
+	text-align: center;
+}
 
 /* archive pages */
+
 .archive-post {
-	display: inline-block;
-	float: left;
-	padding: 4px;
-	width: 250px;
+	padding: 12px;
 }
 .archive-featured-image .featured-image {
-	height: 250px;
+  min-height: 232px;
+}
+.archive-post__info {
+  background: #fff;
+  min-height: 110px;
+  max-height: 110px;
+  position: relative;
+  padding: 16px;
+  z-index: 9;
+  overflow: hidden;
+}
+.archive-title {
+  letter-spacing: 0.04em;
+  font-size: 1em;
+  line-height: 1.143;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.archive-title a {
+  color: #4d4d4d;
+}
+.archive-title a:hover {
+  color: #222;
+}
+.archive-post__meta {
+	text-align: left;
+}
+.archive-post__date {
+  font-size: .813em;
+  line-height: 1.85;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 700;
+  color: #aaa;
 }
