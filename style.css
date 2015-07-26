@@ -127,9 +127,13 @@ body {
 .archive-header {
 	text-align: center;
 }
-
+.sub-menu {
+	background: white;
+}
+.menu-secondary-items ul {
+	background: white;
+}
 /* archive pages */
-
 .archive-post {
 	padding: 12px;
 }
@@ -169,10 +173,10 @@ body {
   font-weight: 700;
   color: #aaa;
 }
+/* END archive pages */
 .excerpt {
 	background: white;
 }
-
 .excerpt-container {
 	width: 100%;
 }
