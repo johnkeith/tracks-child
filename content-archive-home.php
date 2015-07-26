@@ -8,6 +8,12 @@
 		// }
 	?>
 	<div class="excerpt-container">
+		<?php 
+			if($wp_query -> current_post == 0 && !is_paged()){
+				echo '<div class="excerpt-content__first-post">';
+			}
+		?>
+
 		<div class="excerpt-meta">
 			<?php get_template_part('content/post-meta'); ?>
 		</div>
@@ -28,4 +34,10 @@
 			</article>
 		</div>
 	</div>
+
+	<?php 
+		if($wp_query -> current_post == 0 && !is_paged()){
+			echo '</div>';
+		}
+	?>
 </div>
