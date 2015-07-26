@@ -176,5 +176,29 @@ body {
 	width: 50%;
 }
 .excerpt.even .excerpt-container {
-	float: none;
+	/*float: none;*/
+}
+.excerpt-content img{
+	display: none;
+}
+.post:first-child .excerpt-content img{
+	display: block;
+}
+.more-link {
+	padding-top: 10px;
+}
+.excerpt.even .featured-image {
+	/*left: auto;*/
+	/*right: -1px;*/
+}
+@media (min-width: 37.5em) {
+	.excerpt-title {
+	  letter-spacing: .04em;
+	  font-size: 1.313em;
+	  line-height: 1.143;
+	}
+	.post:nth-of-type(1) .excerpt-title {
+	  font-size: 1.875em;
+	  line-height: 1.6;
+	}
 }
